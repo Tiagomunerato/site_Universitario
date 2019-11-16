@@ -1,0 +1,198 @@
+                    html,
+                    body {
+                        background: #2d2e31;
+                        margin: auto;
+                        margin: 0;
+                        width: auto;
+                        height: auto;
+                    }
+                    
+                    #h1 {
+                        margin: 99px;
+                        padding: 99px;
+                        text-transform: uppercase;
+                        font-weight: 300;
+                        color: rgb(218, 207, 207);
+                        top: 0;
+						
+                    }
+                    
+                    .solid {
+                        border-style: solid;
+                        color: rgb(104, 10, 10);
+                        text-align: center;
+                    }
+                    
+                    #header {
+                        width: 90%;
+                        margin: auto;
+                    }
+                    
+                    #logo {
+                        width: 100%;
+                        height: 400px;
+                        top: 0px;
+                        left: 0px;
+                    }
+					
+					.hrv a:hover {
+                        transition: 0.2s;
+                        color: rgb(151, 137, 8);
+                    }
+                    
+                    .nav1 {
+                        font-familY: times;
+                        width: 100%;
+                        height: 50px;
+                        margin: 25px 5px 0px 5px;
+                        background-color: rgb(65, 12, 12);
+                        font-size: 25px;
+                        border-radius: 25px;
+                    }
+                    
+                    .home {
+                        background: rgb(145, 124, 8)
+                    }
+                    
+                    .menu {
+                        position: relative;
+                    }
+                    
+                    .menu li {
+                        margin-left: 8%;
+                        list-style: none;
+                        position: relative;
+                        float: left;
+                    }
+                    
+                    .menu li a {
+                        font-weight: bold;
+                        color: rgb(230, 24, 9);
+                        text-decoration: none;
+                        padding: 8px;
+                        display: block;
+                    }
+                    
+                    .menu li a:hover {
+                        transition: 0.2s;
+                        color: rgb(151, 137, 8);
+                    }
+                    
+                    .menu li ul {
+                        z-index: 1;
+                        margin: 0;
+                        padding: 5px;
+                        position: absolute;
+                        top: 30px;
+                        left: 0;
+                        background-color: rgb(104, 10, 10);
+                        mask-border-slice: 20px;
+                        display: none;
+                    }
+                    
+                    .menu li:hover ul,
+                    .menu li.over ul {
+                        display: block;
+                    }
+                    
+                    .menu li ul li {
+                        position: relative;
+                        display: block;
+                        width: 150px;
+                    }
+                    
+                    .menu li ul li a {
+                        padding: 5px 10px;
+                        font-weight: verdana;
+                    }
+                    
+                    .menu li {
+                        margin-left: 2%;
+                    }
+                    
+                    #imagem {
+                        position: absolute;
+                        border: solid;
+                        width: 299pxs;
+                        height: 293px;
+                        top: 100;
+                        left: 0;
+                        float: left;
+                        margin: 0px 20px 0px 5px;
+                        border-color: rgb(104, 10, 10);
+                    }
+                    
+                   
+                    #table {
+                        color: rgb(104, 10, 10);
+                    }
+                    
+                    #video {
+                        position: absolute;
+                        float: left;
+                        width: 400px;
+                        height: 400px;
+                        top: 410px;
+                        left: 900px;
+                        margin: ;
+                    }
+                    
+                    #pod {
+                        position: absolute;
+                        float: left;
+                        width: 298px;
+                        height: 298px;
+                        top: 518px;
+                        left: 400px;
+                        margin: -20px 20px 0px 55px;
+						border:solid;
+						border-color:rgb(104, 10 , 10);
+                    }
+                    
+                    #audio {
+                        position: absolute;
+                        float: left;
+                        width: 298px;
+                        height: 298px;
+                        top: 522px;
+                        left: 403px;
+                        margin: -20px 20px 0px 55px;
+                    }
+                    
+                    #fatecloc {
+                        font-style: tahoma;
+                        color: rgb(230, 24, 9);
+                        font-size: 30px;
+                        border: solid;
+                        border-color: rgb(104, 10, 10);
+                        border-radius: 25px;
+                        padding: 10px;
+                        background: rgb(104, 10, 10);
+                        text-align: center;
+                        padding: 0px 0px 0px 0px;
+                    }
+                    
+                    #contato {
+                        border: solid;
+                        color: rgb(104, 10, 10);
+                        text-align: center;
+                    }
+                    
+                    #maps {
+                        border: solid;
+                        background: rgb(104, 10, 10);
+                        border-color: rgb(104, 10, 10);
+                    }
+                    
+                    #abt {
+                        color: #c8ccd6;
+                        font-family: verdana;
+                        text-decoration: underline;
+                    }
+                    
+                    #abt2 {
+                        border-color: rgb(104, 10, 10);
+                        border-style: groove;
+                        color: #c8ccd6;
+                        font-family: verdana;
+                    }
